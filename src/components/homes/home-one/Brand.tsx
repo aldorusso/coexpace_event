@@ -11,7 +11,7 @@ const faqs: FaqItem[] = [
    {
       id: 1,
       question: "What is The Invisible Emergency?",
-      answer: "The Invisible Emergency is a global mental health webinar bringing together experts, survivors, and community leaders to address the unseen crisis of mental health. It's a free 3-day virtual summit from November 21-23, 2025."
+      answer: "The Invisible Emergency is a global mental health summit bringing together experts, survivors, and community leaders to address the unseen crisis of mental health. It's a free 2-day virtual summit from November 20-21, 2025."
    },
    {
       id: 2,

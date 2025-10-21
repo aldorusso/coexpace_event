@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 import arrow from "@/assets/img/text/round.png"
 
-const slider_data: string[] = ["The Invisible Emergency", "Global Mental Health Summit", "Free Registration", "Coexpace Global Initiative", "21-23 November 2025",
-   "The Invisible Emergency", "Global Mental Health Summit", "Free Registration", "Coexpace Global Initiative", "21-23 November 2025",
+const slider_data: string[] = ["The Invisible Emergency", "Global Mental Health Summit", "Free Registration", "Coexpace Global Initiative", "20-21 November 2025",
+   "The Invisible Emergency", "Global Mental Health Summit", "Free Registration", "Coexpace Global Initiative", "20-21 November 2025",
 ];
 
 const setting = {

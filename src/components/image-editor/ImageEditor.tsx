@@ -29,6 +29,7 @@ import team_5 from "@/assets/img/team/member-5.png"
 import team_6 from "@/assets/img/team/member-6.png"
 import team_7 from "@/assets/img/team/member-7.png"
 import team_8 from "@/assets/img/team/member-8.png"
+import team_9 from "@/assets/img/team/member-9.png"
 import logo_coexpace from "@/assets/img/logo/coexpace-logo.png"
 import logo_white from "@/assets/img/logo/logo-white.png"
 import logo_white_2 from "@/assets/img/logo/logo-white-2.png"
@@ -66,6 +67,7 @@ const ImageEditor = () => {
     { id: "team_6", name: "Speaker 6", description: "Team member/speaker 6 photo", path: "src/assets/img/team/member-6.png", currentImage: team_6, section: "Team" },
     { id: "team_7", name: "Speaker 7", description: "Team member/speaker 7 photo", path: "src/assets/img/team/member-7.png", currentImage: team_7, section: "Team" },
     { id: "team_8", name: "Speaker 8", description: "Team member/speaker 8 photo", path: "src/assets/img/team/member-8.png", currentImage: team_8, section: "Team" },
+    { id: "team_9", name: "Speaker 9 - Sujo John", description: "Team member/speaker 9 photo", path: "src/assets/img/team/member-9.png", currentImage: team_9, section: "Team" },
 
     // Experience Section
     { id: "banner_bg", name: "Experience Background", description: "Experience/Banner section background", path: "src/assets/img/banner/banner.jpg", currentImage: banner_bg, section: "Experience" },

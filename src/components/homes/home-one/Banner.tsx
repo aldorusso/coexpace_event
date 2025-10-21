@@ -19,12 +19,12 @@ const Banner = () => {
             <div className="row align-items-center">
                <div className="col-xl-6 col-lg-8">
                   <div className="td-hero-content p-relative mb-30 pl-165">
-                     <span className="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">21 - 23 November, 2025</span>
+                     <span className="td-hero-subtitle mb-10 wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.1s">20 - 21 November, 2025</span>
                      <h2 className="td-hero-title wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.3s">The Invisible Emergency</h2>
-                     <p className="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">A Global Call to Face What We Can't See</p>
+                     <p className="td-hero-location wow mb-35 td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.5s">The Mental Health Crisis of Our Time</p>
                      <div className="td-hero-countdown mb-40 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.7s">
                         <ul className="deal-counter ml0-md" id="timer">
-                           <DealCounter expiryTimestamp={new Date("2025-11-21T09:00:00")} />
+                           <DealCounter expiryTimestamp={new Date("2025-11-20T09:00:00")} />
                         </ul>
                      </div>
                      <Link className="td-btn td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="#">

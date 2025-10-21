@@ -27,7 +27,7 @@ const Team = () => {
                   </div>
                </div>
                {team_data.filter((items) => items.page === "home_1").map((item) => (
-                  <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                  <div key={item.id} className="col-xl-4 col-lg-4 col-md-6 col-sm-6  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".9s">
                      <div className="td-team-item mb-25 bg-position p-relative" style={{ backgroundImage: `url(${bg_img.src})` }}>
                         <div className="td-team-content">
                            <h3 className="td-team-member-name mb-0"><Link href="/team-details">{item.title}</Link></h3>

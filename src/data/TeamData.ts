@@ -8,6 +8,7 @@ import team_5 from "@/assets/img/team/member-5.png"
 import team_6 from "@/assets/img/team/member-6.png"
 import team_7 from "@/assets/img/team/member-7.png"
 import team_8 from "@/assets/img/team/member-8.png"
+import team_9 from "@/assets/img/team/member-9.png"
 
 import team2_1 from "@/assets/img/team/team-2/team-1.jpg"
 import team2_2 from "@/assets/img/team/team-2/team-2.jpg"
@@ -50,57 +51,64 @@ const team_data: DataType[] = [
       id: 1,
       page: "home_1",
       thumb: team_1,
-      title: "Nirdosh Kohra",
-      designation: "Researcher & Philosopher",
+      title: "Vivian Toussieh",
+      designation: "Founder of COEXPACE Movement",
    },
    {
       id: 2,
       page: "home_1",
       thumb: team_2,
-      title: "Floyd Miles",
-      designation: "CEO",
+      title: "Thelma Slezynger",
+      designation: "Psychologist & Advocate",
    },
    {
       id: 3,
       page: "home_1",
       thumb: team_3,
-      title: "Esther Howard",
-      designation: "Marketing Manager",
+      title: "Alejandra Schatzky",
+      designation: "Social Entrepreneur & Author",
    },
    {
       id: 4,
       page: "home_1",
       thumb: team_4,
-      title: "Devon Lane",
-      designation: "Sr. Software Engineer",
+      title: "Vanessa Grunwald",
+      designation: "Therapist & Coach",
    },
    {
       id: 5,
       page: "home_1",
       thumb: team_5,
-      title: "Cody Fisher",
-      designation: "Sr. Software Engineer",
+      title: "Dr. Milton Wainberg",
+      designation: "Global Leader in Psychiatry",
    },
    {
       id: 6,
       page: "home_1",
       thumb: team_6,
-      title: "Floyd Miles",
-      designation: "Sr. Software Engineer",
+      title: "Dr. Edith Shiro",
+      designation: "Clinical Psychologist & Author",
    },
    {
       id: 7,
       page: "home_1",
       thumb: team_7,
-      title: "Esther Howard",
-      designation: "Marketing Manager",
+      title: "Manuel Ortega",
+      designation: "Psychotherapist & Speaker",
    },
    {
       id: 8,
       page: "home_1",
       thumb: team_8,
-      title: "Devon Lane",
-      designation: "Sr. Software Engineer",
+      title: "José Casas",
+      designation: "Transpersonal Therapist & Writer",
+   },
+   {
+      id: 9,
+      page: "home_1",
+      thumb: team_9,
+      title: "Sujo John",
+      designation: "Humanitarian Speaker & Founder",
    },
 
    // home_2

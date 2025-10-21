@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import bg_img from "@/assets/img/schedule/bg.jpg"
 
-const tab_title: string[] = ["Day 01 - Nov 21, 2025", "Day 02 - Nov 22, 2025", "Day 03 - Nov 23, 2025"]
+const tab_title: string[] = ["Day 01 - Nov 20, 2025", "Day 02 - Nov 21, 2025"]
 
 const Schedule = () => {
 
