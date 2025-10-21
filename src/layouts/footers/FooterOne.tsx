@@ -58,7 +58,7 @@ const FooterOne = () => {
                         <div className="row align-items-center">
                            <div className="col-md-9">
                               <div className="td-footer-bottom-copyright mb-30">
-                                 <p>Copyright © 2025 Coexpace. All rights reserved.</p>
+                                 <p>Copyright © 2025 Coexpace. All rights reserved. | Developed by <Link href="https://eurosynapse.com/es" target="_blank" style={{color: '#c6d306', textDecoration: 'underline'}}>Eurosynapse</Link></p>
                               </div>
                            </div>
                            <div className="col-md-3">

@@ -12,7 +12,7 @@ const ticket_data: DataType[] = [
    {
       id: 1,
       title: "Free Registration",
-      desc: "Join us for this transformative global webinar addressing the unseen crisis of mental health. Open to educators, mental health professionals, students, and changemakers worldwide. Registration coming soon.",
+      desc: "Join us for this transformative global webinar addressing the unseen crisis of mental health. Open to educators, mental health professionals, students, and changemakers worldwide.",
       price: "FREE"
    },
 ];

@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react"
+import faqBg from "@/assets/img/faq-bg.jpg"
 
 interface FaqItem {
    id: number;
@@ -34,7 +35,7 @@ const Brand = () => {
    const [activeId, setActiveId] = useState<number>(1);
 
    return (
-      <div className="td-brands-area blue-bg pt-110 pb-115">
+      <div className="td-brands-area blue-bg pt-110 pb-115" style={{ backgroundImage: `url(${faqBg.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-8">
