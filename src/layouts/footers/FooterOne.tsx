@@ -47,7 +47,7 @@ const FooterOne = () => {
                            and empathy becomes a daily act of courage.
                         </p>
                         <p className="text mb-0" style={{lineHeight: '1.8', color: '#fff'}}>
-                           In this world, coexistence isn't just possible—it's essential for our shared future.
+                           In this world, coexistence isn&apos;t just possible—it&apos;s essential for our shared future.
                         </p>
                      </div>
                   </div>

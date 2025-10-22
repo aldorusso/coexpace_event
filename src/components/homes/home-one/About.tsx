@@ -19,7 +19,7 @@ const About = () => {
                   <div className="col-lg-11">
                      <div className="td-about-title-wrap text-center mb-30  wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
                         <span className="td-section-subtitle mb-30">The Invisible Emergency</span>
-                        <h2 className="td-section-title">A Global Call to Face What We Can't See</h2>
+                        <h2 className="td-section-title">A Global Call to Face What We Can&apos;t See</h2>
                         <p className="mt-20" style={{fontSize: '16px', lineHeight: '1.8'}}>
                            At a time when millions silently struggle with depression, anxiety, trauma, and disconnection,
                            <strong> The Invisible Emergency</strong> addresses the unseen crisis of mental health and its growing
@@ -30,8 +30,8 @@ const About = () => {
                            share healing tools, and spark collective action toward healthier, more compassionate communities.
                         </p>
                         <p className="mt-15" style={{fontSize: '16px', lineHeight: '1.8', fontStyle: 'italic'}}>
-                           "Mental health is not only a personal struggle, it's a shared responsibility that defines the quality
-                           of our coexistence. We cannot heal what we refuse to see."
+                           &ldquo;Mental health is not only a personal struggle, it&apos;s a shared responsibility that defines the quality
+                           of our coexistence. We cannot heal what we refuse to see.&rdquo;
                         </p>
                      </div>
                      <div className="td-about-thumb-wrap bg-position p-relative text-center" style={{ backgroundImage: `url(${bg_img2.src})` }}>

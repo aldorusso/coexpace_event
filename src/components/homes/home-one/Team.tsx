@@ -1,18 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import team_data from "@/data/TeamData"
 import Image from "next/image"
-import Link from "next/link"
 
 import bg_img from "@/assets/img/team/bg.png"
 
 const Team = () => {
-
-   const [activeToggle, setActiveToggle] = useState<number | null>(null);
-
-   const handleToggle = (id: number) => {
-      setActiveToggle(activeToggle === id ? null : id);
-   };
 
    return (
       <div className="td-team-area pt-140 pb-115 p-relative fix">
