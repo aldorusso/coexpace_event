@@ -34,9 +34,9 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                </div>
             </div>
             <div className="offCanvas__social-icon mt-30">
-               <Link href="https://www.facebook.com/Coexpace.org/" target="_blank"><i className="fab fa-facebook-f"></i></Link>
-               <Link href="https://www.linkedin.com/company/coexpace.com/" target="_blank"><i className="fab fa-linkedin"></i></Link>
-               <Link href="https://www.instagram.com/coexpace_/" target="_blank"><i className="fab fa-instagram"></i></Link>
+               <Link href="https://www.facebook.com/Coexpace.org/?utm_source=event_landing&utm_medium=menu&utm_campaign=invisible_emergency" target="_blank"><i className="fab fa-facebook-f"></i></Link>
+               <Link href="https://www.linkedin.com/company/coexpace.com/?utm_source=event_landing&utm_medium=menu&utm_campaign=invisible_emergency" target="_blank"><i className="fab fa-linkedin"></i></Link>
+               <Link href="https://www.instagram.com/coexpace_/?utm_source=event_landing&utm_medium=menu&utm_campaign=invisible_emergency" target="_blank"><i className="fab fa-instagram"></i></Link>
             </div>
          </div>
          <div onClick={() => setOffCanvas(false)} className={`offCanvas__overly ${offCanvas ? "active" : ""}`}></div>

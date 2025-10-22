@@ -19,7 +19,7 @@ const FooterOne = () => {
                            A global initiative activating empathy, moral courage, and coexistence through
                            immersive storytelling, education, and civic action.
                         </p>
-                        <Link className="email" href="https://coexpace.org" target="_blank">coexpace.org</Link>
+                        <Link className="email" href="https://coexpace.org?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank">coexpace.org</Link>
                      </div>
                   </div>
                   <div className="col-lg-5 col-md-7">
@@ -60,17 +60,17 @@ const FooterOne = () => {
                               <div className="td-footer-bottom-copyright mb-30">
                                  <p>
                                     Copyright © 2025 Coexpace. All rights reserved. |
-                                    <Link href="https://coexpace.org/terms-and-conditions/" target="_blank" style={{color: '#fff', marginLeft: '5px', marginRight: '5px'}}>Terms & Conditions</Link> |
-                                    <Link href="https://coexpace.org/privacy-policy/" target="_blank" style={{color: '#fff', marginLeft: '5px', marginRight: '5px'}}>Privacy Policy</Link> |
-                                    Developed by <Link href="https://eurosynapse.com/es" target="_blank" style={{color: '#c6d306', textDecoration: 'underline'}}>Eurosynapse</Link>
+                                    <Link href="https://coexpace.org/terms-and-conditions/?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank" style={{color: '#fff', marginLeft: '5px', marginRight: '5px'}}>Terms & Conditions</Link> |
+                                    <Link href="https://coexpace.org/privacy-policy/?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank" style={{color: '#fff', marginLeft: '5px', marginRight: '5px'}}>Privacy Policy</Link> |
+                                    Developed by <Link href="https://eurosynapse.com/es?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank" style={{color: '#c6d306', textDecoration: 'underline'}}>Eurosynapse</Link>
                                  </p>
                               </div>
                            </div>
                            <div className="col-md-3">
                               <div className="td-footer-bottom-social text-right mb-30">
-                                 <span><Link href="https://www.linkedin.com/company/coexpace.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></Link></span>
-                                 <span><Link href="https://www.instagram.com/coexpace_/" target="_blank"><i className="fa-brands fa-instagram"></i></Link></span>
-                                 <span><Link href="https://www.facebook.com/Coexpace.org/" target="_blank"><i className="fa-brands fa-facebook"></i></Link></span>
+                                 <span><Link href="https://www.linkedin.com/company/coexpace.com/?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank"><i className="fa-brands fa-linkedin"></i></Link></span>
+                                 <span><Link href="https://www.instagram.com/coexpace_/?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank"><i className="fa-brands fa-instagram"></i></Link></span>
+                                 <span><Link href="https://www.facebook.com/Coexpace.org/?utm_source=event_landing&utm_medium=footer&utm_campaign=invisible_emergency" target="_blank"><i className="fa-brands fa-facebook"></i></Link></span>
                               </div>
                            </div>
                         </div>

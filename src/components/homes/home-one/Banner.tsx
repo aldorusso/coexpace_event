@@ -41,9 +41,9 @@ const Banner = () => {
                      </Link>
                      <div className="td-hero-social d-flex align-items-center">
                         <span>Follow Us On:</span>
-                        <span><Link href="https://www.linkedin.com/company/coexpace.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></Link></span>
-                        <span><Link href="https://www.instagram.com/coexpace_/" target="_blank"><i className="fa-brands fa-instagram"></i></Link></span>
-                        <span><Link href="https://www.facebook.com/Coexpace.org/" target="_blank"><i className="fa-brands fa-facebook"></i></Link></span>
+                        <span><Link href="https://www.linkedin.com/company/coexpace.com/?utm_source=event_landing&utm_medium=hero&utm_campaign=invisible_emergency" target="_blank"><i className="fa-brands fa-linkedin"></i></Link></span>
+                        <span><Link href="https://www.instagram.com/coexpace_/?utm_source=event_landing&utm_medium=hero&utm_campaign=invisible_emergency" target="_blank"><i className="fa-brands fa-instagram"></i></Link></span>
+                        <span><Link href="https://www.facebook.com/Coexpace.org/?utm_source=event_landing&utm_medium=hero&utm_campaign=invisible_emergency" target="_blank"><i className="fa-brands fa-facebook"></i></Link></span>
                         <span className="hero-border"></span>
                      </div>
                   </div>
