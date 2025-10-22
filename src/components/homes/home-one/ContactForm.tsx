@@ -72,7 +72,7 @@ const ContactForm = () => {
 
       // Validar que el teléfono solo contenga números, espacios, +, - y ()
       if (name === 'phone') {
-         const phoneRegex = /^[0-9+\-\s()]*$/;
+         const phoneRegex = /^[0-9\+\-\s()]*$/;
          if (!phoneRegex.test(value)) {
             return; // No actualizar si contiene caracteres no válidos
          }
@@ -181,7 +181,7 @@ const ContactForm = () => {
                                        value={formData.phone}
                                        onChange={handleChange}
                                        required
-                                       pattern="[0-9+\-\s()]+"
+                                       pattern="[0-9\+\-\s()]+"
                                        title="Please enter a valid phone number (numbers, +, -, spaces, and parentheses only)"
                                        minLength={7}
                                        style={{
