@@ -7,7 +7,8 @@ const ContactForm = () => {
       firstName: "",
       lastName: "",
       email: "",
-      phone: ""
+      phone: "",
+      acceptPrivacy: false
    });
 
    const handleSubmit = (e: React.FormEvent) => {
@@ -17,7 +18,7 @@ const ContactForm = () => {
    };
 
    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-      const { name, value } = e.target;
+      const { name, value, type, checked } = e.target;
 
       // Validar que el teléfono solo contenga números, espacios, +, - y ()
       if (name === 'phone') {
@@ -29,7 +30,7 @@ const ContactForm = () => {
 
       setFormData({
          ...formData,
-         [name]: value
+         [name]: type === 'checkbox' ? checked : value
       });
    };
 
@@ -145,6 +146,38 @@ const ContactForm = () => {
                                        onFocus={(e) => e.target.style.borderColor = 'var(--td-theme-1)'}
                                        onBlur={(e) => e.target.style.borderColor = '#e0e0e0'}
                                     />
+                                 </div>
+                              </div>
+                              <div className="col-12">
+                                 <div className="td-contact-checkbox mb-30" style={{textAlign: 'left', maxWidth: '600px', margin: '0 auto'}}>
+                                    <label style={{display: 'flex', alignItems: 'flex-start', cursor: 'pointer', fontSize: '15px', lineHeight: '1.6'}}>
+                                       <input
+                                          type="checkbox"
+                                          name="acceptPrivacy"
+                                          checked={formData.acceptPrivacy}
+                                          onChange={handleChange}
+                                          required
+                                          style={{
+                                             width: '20px',
+                                             height: '20px',
+                                             marginRight: '12px',
+                                             marginTop: '2px',
+                                             cursor: 'pointer',
+                                             flexShrink: 0
+                                          }}
+                                       />
+                                       <span>
+                                          I have read and accept the{' '}
+                                          <a
+                                             href="https://coexpace.org/privacy-policy/?utm_source=event_landing&utm_medium=form&utm_campaign=invisible_emergency"
+                                             target="_blank"
+                                             rel="noopener noreferrer"
+                                             style={{color: 'var(--td-theme-1)', textDecoration: 'underline'}}
+                                          >
+                                             Privacy Policy
+                                          </a>
+                                       </span>
+                                    </label>
                                  </div>
                               </div>
                               <div className="col-12">
