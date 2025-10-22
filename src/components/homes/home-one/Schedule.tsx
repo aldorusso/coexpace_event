@@ -70,7 +70,10 @@ const Schedule = () => {
                                                 </div>
                                                 <div className="col-lg-3 col-md-6 col-sm-6">
                                                    <div className="td-schedule-content text-center mb-20">
-                                                      <Link className="td-btn td-left-right" href="#">
+                                                      <Link className="td-btn td-left-right" href="#join-movement" onClick={(e) => {
+                                                         e.preventDefault();
+                                                         document.getElementById('join-movement')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                                      }}>
                                                          <span className="mr10 td-text d-inline-block mr-5">Register</span>
                                                          <span className="td-arrow-angle">
                                                             <svg className="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">

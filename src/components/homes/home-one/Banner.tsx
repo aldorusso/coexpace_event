@@ -27,7 +27,10 @@ const Banner = () => {
                            <DealCounter expiryTimestamp={new Date("2025-11-20T09:00:00")} />
                         </ul>
                      </div>
-                     <Link className="td-btn td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="#">
+                     <Link className="td-btn td-left-right wow  td-animetion-top" data-wow-duration="1.5s" data-wow-delay="0.9s" href="#join-movement" onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById('join-movement')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                     }}>
                         <span className="mr10 td-text d-inline-block mr-5">REGISTER</span>
                         <span className="td-arrow-angle">
                            <svg className="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">

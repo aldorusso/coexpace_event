@@ -8,6 +8,7 @@ import FooterOne from "@/layouts/footers/FooterOne"
 import Schedule from "./Schedule"
 import About from "./About"
 import Experience from "./Experience"
+import ContactForm from "./ContactForm"
 
 const HomeOne = () => {
   return (
@@ -23,6 +24,7 @@ const HomeOne = () => {
         <Brand />
         <Ticket />
         <TextSlider />
+        <ContactForm />
       </main>
       <FooterOne />
     </>

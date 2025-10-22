@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import bg_img from "@/assets/img/about/bg.jpg"
 
@@ -43,7 +44,10 @@ const Ticket = () => {
                            <div className="col-lg-3">
                               <div className="td-tickets-time text-center">
                                  <span className="price mb-25">{item.price}</span>
-                                 <Link className="td-btn td-left-right" href="https://coexpace.org">
+                                 <Link className="td-btn td-left-right" href="#join-movement" onClick={(e) => {
+                                    e.preventDefault();
+                                    document.getElementById('join-movement')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                 }}>
                                     <span className="mr10 td-text d-inline-block mr-5">Register Now</span>
                                     <span className="td-arrow-angle">
                                        <svg className="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
