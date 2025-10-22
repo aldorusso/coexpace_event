@@ -96,9 +96,9 @@ const About = () => {
             </div>
          </div>
          <VideoPopup
-            isOpen={isVideoOpen}
-            onClose={() => setIsVideoOpen(false)}
-            videoId="TfU0qjuZkJ4"
+            isVideoOpen={isVideoOpen}
+            setIsVideoOpen={setIsVideoOpen}
+            videoId="Rd0HnxWm5CY"
          />
       </>
    )
