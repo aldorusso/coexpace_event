@@ -29,6 +29,53 @@ npm run build
 npm start
 ```
 
+## Docker Deployment
+
+### Using Docker Compose (Recommended)
+
+Build and run the container:
+
+```bash
+docker-compose up -d
+```
+
+Stop the container:
+
+```bash
+docker-compose down
+```
+
+View logs:
+
+```bash
+docker-compose logs -f
+```
+
+### Using Docker directly
+
+Build the image:
+
+```bash
+docker build -t coexpace-event .
+```
+
+Run the container:
+
+```bash
+docker run -p 3000:3000 coexpace-event
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000)
+
+### Production Deployment
+
+For production deployment:
+
+1. Build the image on your server or CI/CD pipeline
+2. Run with docker-compose or your orchestration tool (Kubernetes, Docker Swarm, etc.)
+3. The container includes health checks and runs as a non-root user for security
+4. Recommended: Use a reverse proxy (nginx, Caddy) in front of the container
+
 ## Tech Stack
 
 - Next.js 15.5.0
