@@ -3,6 +3,77 @@
 /*=============================
     	13. Header
 ===============================*/
+
+// Event Speakers Navigation Bottom
+.td-event-speakers-nav-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 15px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            .speaker-nav-link {
+                font-family: var(--td-ff-poppins);
+                font-size: 13px;
+                font-weight: 500;
+                color: var(--td-common-white);
+                text-decoration: none;
+                padding: 6px 14px;
+                border-radius: 20px;
+                transition: all 0.3s ease;
+                display: inline-block;
+                white-space: nowrap;
+
+                &:hover {
+                    background: var(--td-theme-secondary);
+                    color: var(--td-common-black);
+                    transform: translateY(-2px);
+                }
+            }
+        }
+    }
+
+    @media #{$md,$sm,$xs} {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        margin-top: 10px;
+
+        ul {
+            gap: 8px !important;
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+
+            li {
+                .speaker-nav-link {
+                    font-size: 11px;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}
+
+// When header is sticky
+.header-sticky {
+    .td-event-speakers-nav-bottom {
+        border-top-color: rgba(0, 0, 0, 0.1);
+
+        ul {
+            li {
+                .speaker-nav-link {
+                    color: var(--td-common-black);
+
+                    &:hover {
+                        background: var(--td-theme-primary);
+                        color: var(--td-common-white);
+                    }
+                }
+            }
+        }
+    }
+}
 .td-header{
     &-cart{
         & .cart-button{

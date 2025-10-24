@@ -64,4 +64,10 @@
 			color: var(--td-common-black);
 		}
 	}
+	&-support{
+		background: var(--td-theme-primary);
+		&:hover{
+			background: var(--td-theme-secondary);
+		}
+	}
 }

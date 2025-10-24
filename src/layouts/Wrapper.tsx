@@ -1,4 +1,4 @@
-import ScrollToTop from "@/components/common/ScrollToTop";
+// import ScrollToTop from "@/components/common/ScrollToTop";
 import { ReactNode } from "react";
 
 type WrapperProps = {
@@ -10,7 +10,7 @@ const Wrapper = ({ children }: WrapperProps) => {
   return (
     <>
       {children}
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </>
   );
 };
