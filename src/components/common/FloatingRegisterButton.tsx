@@ -46,8 +46,8 @@ const FloatingRegisterButton = () => {
                position: fixed;
                bottom: 30px;
                right: 30px;
-               background: linear-gradient(135deg, var(--td-theme-1) 0%, #a8b805 100%);
-               color: white;
+               background: #c6d306;
+               color: #ffffff;
                border: none;
                border-radius: 50px;
                padding: 16px 32px;
@@ -75,8 +75,8 @@ const FloatingRegisterButton = () => {
 
             .floating-register-btn:hover {
                transform: translateY(-3px);
-               box-shadow: 0 12px 35px rgba(198, 211, 6, 0.5);
-               background: linear-gradient(135deg, #a8b805 0%, var(--td-theme-1) 100%);
+               box-shadow: 0 12px 35px rgba(198, 211, 6, 0.6);
+               background: #b8c305;
             }
 
             .floating-register-btn:active {
