@@ -9,27 +9,11 @@ import Sidebar from './menu/Sidebar'
 import logo_1 from "@/assets/img/logo/coexpace-logo.png"
 import logo_2 from "@/assets/img/logo/logo-black.png"
 
-interface Speaker {
-   name: string;
-   id: string;
-}
-
-interface HeaderEventProps {
-   speakers: Speaker[];
-}
-
-const HeaderEvent = ({ speakers }: HeaderEventProps) => {
+const HeaderEvent = () => {
 
    const { sticky } = UseSticky();
    const [offCanvas, setOffCanvas] = useState<boolean>(false);
    const [sidebar, setSidebar] = useState<boolean>(false);
-
-   const scrollToSpeaker = (id: string) => {
-      const element = document.getElementById(id);
-      if (element) {
-         element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-   };
 
    return (
       <header id="header" className="td-header-height">

@@ -21,7 +21,7 @@ const ContactForm = () => {
       setSubmitStatus('idle');
 
       try {
-         const response = await fetch('https://script.google.com/macros/s/AKfycbycDSPoRHmgdeCwqvZaRMiVqXAyJfmYhWhdtEiY8dlkcyZ3ReI_6fA2zaHshdGPgsUYTA/exec', {
+         await fetch('https://script.google.com/macros/s/AKfycbycDSPoRHmgdeCwqvZaRMiVqXAyJfmYhWhdtEiY8dlkcyZ3ReI_6fA2zaHshdGPgsUYTA/exec', {
             method: 'POST',
             mode: 'no-cors',
             headers: {

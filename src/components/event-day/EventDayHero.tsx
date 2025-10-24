@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import bg_img from "@/assets/img/hero/bg.jpg"
 
 interface EventDayHeroProps {
@@ -7,7 +7,7 @@ interface EventDayHeroProps {
   dayTitle: string;
   subtitle: string;
   description: string;
-  videoThumbnail: any;
+  videoThumbnail: StaticImageData;
   videoUrl: string;
 }
 
@@ -16,8 +16,7 @@ const EventDayHero = ({
   dayTitle,
   subtitle,
   description,
-  videoThumbnail,
-  videoUrl
+  videoThumbnail
 }: EventDayHeroProps) => {
   return (
     <div className="td-event-day-hero td-hero-spacing bg-position p-relative fix" style={{ backgroundImage: `url(${bg_img.src})` }}>

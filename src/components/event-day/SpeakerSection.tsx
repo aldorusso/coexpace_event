@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 
 interface Speaker {
   id: string;
@@ -7,7 +7,7 @@ interface Speaker {
   title: string;
   description: string;
   quote: string;
-  videoThumbnail: any;
+  videoThumbnail: StaticImageData;
   youtubeUrl: string;
   spotifyEmbedUrl: string;
   date: string;
@@ -45,7 +45,7 @@ const SpeakerSection = ({ speakers }: SpeakerSectionProps) => {
               <div className="td-event-speaker-content mb-30 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.3s">
                 <h3 className="td-speaker-name mb-20">{speaker.name}</h3>
                 <h4 className="td-speaker-title mb-20">{speaker.title}</h4>
-                <p className="td-speaker-quote mb-30">"{speaker.quote}"</p>
+                <p className="td-speaker-quote mb-30">&quot;{speaker.quote}&quot;</p>
                 <div className="td-speaker-spotify">
                   <iframe
                     src={speaker.spotifyEmbedUrl}

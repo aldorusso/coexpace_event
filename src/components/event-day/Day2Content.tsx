@@ -80,7 +80,7 @@ const Day2Content = () => {
 
   return (
     <>
-      <HeaderEvent speakers={speakersNav} />
+      <HeaderEvent />
       <EventDayHero
         dayNumber={2}
         dayTitle="Day 2 – From Pain to Purpose"
