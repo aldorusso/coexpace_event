@@ -85,8 +85,7 @@ const Day1Content = () => {
         dayTitle="Day 1 – The Invisible Emergency"
         subtitle="Why Mental Health Needs a Global Awakening"
         description="Join us for a transformative day exploring mental health awareness, suicide prevention, and the foundations of emotional wellbeing."
-        videoThumbnail={banner_thumb}
-        videoUrl="https://www.youtube.com/watch?v=YOUR_MAIN_VIDEO"
+        videoUrl="https://www.youtube.com/embed/YOUR_MAIN_VIDEO_DAY1"
       />
       <SpeakersNavBar speakers={speakersNav} />
       <SpeakerSection speakers={speakers} />

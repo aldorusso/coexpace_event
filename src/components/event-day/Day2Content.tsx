@@ -86,8 +86,7 @@ const Day2Content = () => {
         dayTitle="Day 2 – From Pain to Purpose"
         subtitle="Trauma, Healing, and Transformation"
         description="Explore paths to healing through trauma recovery, innovative therapies, and building conscious communities."
-        videoThumbnail={banner_thumb}
-        videoUrl="https://www.youtube.com/watch?v=YOUR_MAIN_VIDEO_DAY2"
+        videoUrl="https://www.youtube.com/embed/YOUR_MAIN_VIDEO_DAY2"
       />
       <SpeakersNavBar speakers={speakersNav} />
       <SpeakerSection speakers={speakers} />

@@ -1,5 +1,4 @@
 "use client"
-import Image, { StaticImageData } from "next/image"
 import bg_img from "@/assets/img/hero/bg.jpg"
 
 interface EventDayHeroProps {
@@ -7,7 +6,6 @@ interface EventDayHeroProps {
   dayTitle: string;
   subtitle: string;
   description: string;
-  videoThumbnail: StaticImageData;
   videoUrl: string;
 }
 
@@ -16,7 +14,7 @@ const EventDayHero = ({
   dayTitle,
   subtitle,
   description,
-  videoThumbnail
+  videoUrl
 }: EventDayHeroProps) => {
   return (
     <div className="td-event-day-hero td-hero-spacing bg-position p-relative fix" style={{ backgroundImage: `url(${bg_img.src})` }}>
@@ -40,9 +38,19 @@ const EventDayHero = ({
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
-            <div className="td-event-day-video mb-30 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <div className="td-event-day-video-container mb-30 wow td-animetion-right" data-wow-duration="1.5s" data-wow-delay="0.5s">
               <div className="td-event-day-badge">DAY {dayNumber}</div>
-              <Image src={videoThumbnail} alt={`Day ${dayNumber} Video`} className="w-100" />
+              <div className="td-event-day-video-wrapper">
+                <iframe
+                  src={videoUrl}
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title={`Day ${dayNumber} Welcome Video`}
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
