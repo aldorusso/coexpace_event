@@ -32,9 +32,9 @@ const FloatingRegisterButton = () => {
       <button
          onClick={scrollToForm}
          className={`floating-register-btn ${isVisible ? 'visible' : ''}`}
-         aria-label="Register Now"
+         aria-label="Register Now Free"
       >
-         <span className="btn-text">REGISTER NOW</span>
+         <span className="btn-text">REGISTER NOW FREE</span>
          <span className="btn-icon">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                <path d="M10 0L10 18M10 18L3 11M10 18L17 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -46,7 +46,7 @@ const FloatingRegisterButton = () => {
                position: fixed;
                bottom: 30px;
                right: 30px;
-               background: #c6d306;
+               background: #dc3545;
                color: #ffffff;
                border: none;
                border-radius: 50px;
@@ -56,7 +56,7 @@ const FloatingRegisterButton = () => {
                letter-spacing: 1px;
                cursor: pointer;
                z-index: 999;
-               box-shadow: 0 8px 25px rgba(198, 211, 6, 0.4);
+               box-shadow: 0 8px 25px rgba(220, 53, 69, 0.4);
                transition: all 0.3s ease;
                opacity: 0;
                transform: translateY(100px);
@@ -75,8 +75,8 @@ const FloatingRegisterButton = () => {
 
             .floating-register-btn:hover {
                transform: translateY(-3px);
-               box-shadow: 0 12px 35px rgba(198, 211, 6, 0.6);
-               background: #b8c305;
+               box-shadow: 0 12px 35px rgba(220, 53, 69, 0.6);
+               background: #c82333;
             }
 
             .floating-register-btn:active {
